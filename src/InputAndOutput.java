@@ -20,7 +20,7 @@ public class InputAndOutput {
 		
 		//println displays in the console in a different line
 		String myString = "Lorena";
-		System.out.printf("Hello World my name is %s", myString);
+		System.out.printf("Hello World my name is %s", myString); 
 		
 		
 		/*-------------------Scanner--------------------*/
