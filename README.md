@@ -85,7 +85,7 @@ while((i = inputFile.read()) != -1) {
 4. **Close** the file:
 
 ```java
-input.close();
+inputFile.close();
 ```
 
 ## FileOutputStream 🖨️
