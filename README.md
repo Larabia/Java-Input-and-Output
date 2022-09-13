@@ -3,7 +3,7 @@ You can use this project as a cheatsheet or a fast course on Java Input and Outp
 
 ## Before we start ✋
 > In this ReadMe you'll find information about **some of the built-in classes that are useful for inputting and outputting in Java.**  
-> At last, but not least, this project includes java files with the **actual implementation** of these classes.
+> Also, this project includes java files with the **actual implementation** of these classes.
 
 We will be reviewing the following classes:
 - `System.out`: to **display out in a terminal** or command prompt application.
