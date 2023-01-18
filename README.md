@@ -100,6 +100,7 @@ import java.io.*;
 2. **Declare** your output stream. The statement will create a file named output.txt in the same folder as where your Java program is saved. You may also choose to place an absolute or relative file path in the brackets or create an object of the variable type `File` to pass into the `FileOutputStream`. This is useful if you plan to have the user pass in a path where they want to store the output:
 
 ```java
+//Option 1: Pass file path/name directly to FileOutputStream
 FileOutputStream output = new FileOutputStream("output.txt");
 ```
 ```java
