@@ -59,14 +59,14 @@ The `Scanner` class has **many functions**, including the ability to validate an
 
 ## FileInputStream 🗃️
 
-Is used **to read data from a file into a program**. FileInputStream reads in bytes and then convert to the variables the program requires.
+Is used **to read data from a file into a program**. FileInputStream reads in bytes and then converts to the variables the program requires.
 
 1. First we must **import the java.io classes**:
 
 ```java
 import java.io.*;
 ```
-2. **Declare** your input stream. The statement will find the file at the specified file path (you can use an absolute o relative path). Alternatively, you may choose to create an object of the variable type `File` to pass into the `FileInputStream`:
+2. **Declare** your input stream. The statement will find the file at the specified file path (you can use an absolute or relative path). Alternatively, you may choose to create an object of the variable type `File` to pass into the `FileInputStream`:
 
 ```java
 FileInputStream input = new FileInputStream(filePath);
