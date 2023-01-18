@@ -102,9 +102,21 @@ import java.io.*;
 ```java
 FileOutputStream output = new FileOutputStream("output.txt");
 ```
+```java
+// Option 2: Use File object to pass file info to FileOutputStream
+// Save file path that has been passed in by the user into a string variable.
+String fileName = args[0];
+// Pass path to File object
+File outputFile = new File(fileName);
+// Pass File object to FileOutputSteam
+FileOutputStream output2 = new FileOutputStream(outputFile);
+```
+
 3. **Write** to your file. We must convert the data we wish to write to a file into bytes and then write to the file:
 
 ```java
+// Declare statement
+String statement = "Hello World!";
 // Convert statement to bytes.
 byte[] statementBytes = statement.getBytes();
 
